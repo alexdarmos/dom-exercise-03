@@ -4,9 +4,9 @@
     window.addEventListener(`mouseup`, (event) => {
         let circle = document.getElementById(`circle`);
 
-        let quipList = [`Wow.`, `so Internet meme`, `such neutral`, `how to article?`];
+        let quipList = [`Wow.`, `so Internet meme`, `such neutral`, `how to article?`, `so score`, `what r you doing`];
 
-        let colorList = [`Pink`, `Blue`, `Purple`, `Green`];
+        let colorList = [`Pink`, `Blue`, `Purple`, `Green`, `Orange`];
 
         let rotateList = [`rotate(30deg)`, `rotate(320deg)`];
 
