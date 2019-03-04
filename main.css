@@ -15,6 +15,15 @@ h1 {
     background-size: 100px;
 }
 
+#quip {
+    width: 115px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
 /* body{
     background-image: url("doge-cool.png");
 } */
