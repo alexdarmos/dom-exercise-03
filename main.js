@@ -27,20 +27,29 @@
             return rotateList[number];
         }
 
-        
+        console.log(rotateGenerator());
         
         let positionX = (event.clientX);
         let positionY = (event.clientY);
         console.log(`X:${positionX} Y:${positionY}`);
        
-        quip.innerText = quipGenerator();
-        circle.style.top = `${positionY + 25}px`;
+        
+        circle.style.top = `${positionY}px`;
         circle.style.left = `${positionX}px`;
         
-        quip.style.top = `${positionY}px`;
-        quip.style.left = `${positionX}px`;
+        quip.innerText = quipGenerator();
+        quip.style.left = `${positionX - 40}px`;
+        quip.style.top = `${positionY - 50}px`;
         quip.style.color = colorGenerator();
         quip.style.transform = rotateGenerator();
+        
+        // if (rotateGenerator() === "rotate(320deg") {
+        //     quip.style.left = `${positionX - 205}px`;
+        // } else {
+        //     quip.style.left = `${positionX}px`;
+        // }
+
+        
 
        
 
