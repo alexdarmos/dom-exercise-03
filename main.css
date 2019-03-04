@@ -3,11 +3,18 @@ h1 {
 }
 
 #circle {
-    background-color: darkgreen;
-    height: 50px;
-    width: 50px;
+    /* background-color: darkgreen; */
+    height: 100px;
+    width: 100px;
     border-radius: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
+    background-image: url("doge-cool.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
 }
+
+/* body{
+    background-image: url("doge-cool.png");
+} */
