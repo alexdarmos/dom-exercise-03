@@ -1,7 +1,8 @@
 (() => {
     
 
-    window.addEventListener(`mouseup`, (event) => {
+    document.addEventListener(`click`, (event) => {
+        // console.log(`Event: ${event}`)
         let circle = document.getElementById(`circle`);
 
         let quipList = [`Wow.`, `so Internet meme`, `such neutral`, `how to article?`, `so score`, `what r you doing`];

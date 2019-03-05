@@ -27,3 +27,7 @@ h1 {
 /* body{
     background-image: url("doge-cool.png");
 } */
+
+.gradient-one {
+    background-image: linear-gradient(-90deg, white, gold);
+}
